@@ -1,33 +1,41 @@
-# Javascript Calculator
+# JavaScript Calculator
 
-[![AlexFlorides - javascript-calculator](https://img.shields.io/static/v1?label=AlexFlorides&message=javascript-calculator&color=blue&logo=github)](https://github.com/AlexFlorides/javascript-calculator "Go to GitHub repo")
-[![stars - javascript-calculator](https://img.shields.io/github/stars/AlexFlorides/javascript-calculator?style=social)](https://github.com/AlexFlorides/javascript-calculator)
-[![forks - javascript-calculator](https://img.shields.io/github/forks/AlexFlorides/javascript-calculator?style=social)](https://github.com/AlexFlorides/javascript-calculator)
+This project is a simple yet functional JavaScript calculator. It's designed to perform basic arithmetic operations and showcases the use of JavaScript, HTML, and CSS in creating interactive web applications.
+## Application Screenshot
 
----
+![Screenshot](assets/jscalculator.jpg)
 
-A simple calculator built using vanilla HTML, CSS and JavaScript.
 
-## Controls / Functionality
+## Contents
 
-- Can be controlled using either mouse / touchscreen or by using the keyboard pressing the corresponding keys.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [Code Structure](#code-structure)
+- [Contributing](#contributing)
 
-- Decimal point can be inserted using both comma or dot key on the keyboard.
+## Introduction
 
-- Backspace deletes last digit.
+The JavaScript Calculator is a web-based application that allows users to perform basic calculations like addition, subtraction, multiplication, and division. It features a user-friendly interface and responsive design.
 
-- By keep pressing the equal operator will recalculate result based on the last operation.
+## Features
 
-- Last operation will show up above the input box every time any of the operators is selected.
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
+- Percentage calculation
+- Square root, power, and inverse functions
+- Keyboard support for operation
 
-## Demo
+## Usage
 
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://alexflorides.github.io/javascript-calculator/)
+To use the calculator, simply open the `index.html` file in a web browser. The calculator is ready to use with clickable buttons for each operation.
 
-![javascript-calculator](https://user-images.githubusercontent.com/47948084/230783857-6933cdde-4cba-43f5-8aeb-ef992d9507dc.png)
+## Code Structure
 
-## Contributions
+- [JavaScript (`code.js`)](https://github.com/Guadeloupe33/JavaSccriptCalculator/blob/main/code.js): Contains the logic for calculator operations and UI interactions.
+- [HTML (`index.html`)](https://github.com/Guadeloupe33/JavaSccriptCalculator/blob/main/index.html): Structures the calculator's layout and buttons.
+- [CSS (`assets/calc_style.css`)](https://github.com/Guadeloupe33/JavaSccriptCalculator/blob/main/assets/calc_style.css): Styles the calculator's appearance.
 
-- Feel free to suggest any improvements by creating an issue.
+## Contributing
 
-- You can also work on an already open issue and pull request when finished, so I can review the changes and eventually merge them to the base branch.
+Contributions to the project are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
+
